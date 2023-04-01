@@ -8,7 +8,7 @@ Implementação de uma Pokedex com todos os 151 Pokemons da primeira geração. 
 Por fim, para alimentar a Pokedex os dados inseridos foram consumidos da `API https://pokeapi.co`.
 
 # Execução do Projeto
-Para rodar o projeto, basta rodá-lo localmente. No mais, o projeto está disponível para visualização no link a seguir: [Projeto](https://dio-desafio-pokedex.vercel.app/).
+Para rodar o projeto, basta rodá-lo localmente. No mais, o projeto está disponível para visualização no link a seguir: [Pokedex](https://dio-desafio-pokedex.vercel.app/).
 
 # Status do Projeto
 🚧 Concluído. Porém, futuramente há possibilidade de novas implementações... 🚧
