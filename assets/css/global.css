@@ -37,7 +37,6 @@ body {
 }
 
 .content {
-  padding: 1rem;
   background: #fff;
   height: 100vh;
 }
@@ -45,7 +44,12 @@ body {
 .content h1 {
   text-transform: uppercase;
   text-align: center;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
+  color: #fff;
+  background-color: #6c79db;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  width: 100%;
 }
 
 .pokemons {
@@ -53,7 +57,7 @@ body {
   grid-template-columns: 1fr;
   list-style: none;
   gap: 1rem;
-  margin: 1rem 0;
+  margin: 1rem;
   cursor: pointer;
 }
 
@@ -197,6 +201,7 @@ body {
   padding: 1.6rem;
   width: 100%;
   cursor: pointer;
+  margin: 0 1rem;
 }
 
 @media screen and (min-width: 600px) {

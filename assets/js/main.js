@@ -1,6 +1,8 @@
 const pokemonList = document.getElementById("pokemonList");
 const loadMoreButton = document.getElementById("loadMoreButton");
-const maxRecords = 151
+const pokemons = document.getElementsByClassName("pokemons");
+
+const maxRecords = 151;
 const limit = 6;
 let offset = 0;
 
@@ -61,3 +63,5 @@ loadMoreButton.addEventListener('click', () => {
 pokemonList.addEventListener('click', () => {
     window.location.assign('description.html')
 })
+
+console.log(pokemonList)
